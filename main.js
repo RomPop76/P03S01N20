@@ -33,7 +33,7 @@ undefined;
 !true; //false
 
 // podwójna negacja
-!!true
+// !!true
 !!0
 !!""
 
