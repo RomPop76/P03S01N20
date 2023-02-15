@@ -75,7 +75,7 @@ const userExperience = 0;
 // Tylko jeden z operandów musi być true (czy konwertowany na true)
 Boolean(userConnections || userExperience)
 
-1 || 0;
+// 1 || 0;
 /*
 1- Sprawdza lewą stronę, dokonując konwersji wartości (wyrażenia) na typ boolean. Jeśli jest true to NIE SPRAWDZA już drugiej strony i zwraca wartość, którą sprawdzał (tak byłoby w przykładzie 1 || 0). Warunek na tym etapie jest już rpawdziwy. Jeśli jest false, to przechodzi do sprawdzenie argumentu z prawej strony np. "" || 0;
 
